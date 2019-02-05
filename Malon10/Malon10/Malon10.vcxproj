@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A08078A-986F-42AE-A788-A25BD882E332}</ProjectGuid>
+    <RootNamespace>Malon10</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="CapFloor.cpp" />
+    <ClCompile Include="Curve.cpp" />
+    <ClCompile Include="Define.cpp" />
+    <ClCompile Include="Deposit.cpp" />
+    <ClCompile Include="DiscountCurveCalibration.cpp" />
+    <ClCompile Include="FinanceFormula.cpp" />
+    <ClCompile Include="FixedRateBond.cpp" />
+    <ClCompile Include="FloatingRateNote.cpp" />
+    <ClCompile Include="FloatLeg.cpp" />
+    <ClCompile Include="ForwardRateAgreement.cpp" />
+    <ClCompile Include="GregDate.cpp" />
+    <ClCompile Include="Instrument.cpp" />
+    <ClCompile Include="Integral.cpp" />
+    <ClCompile Include="InterestRateSwap.cpp" />
+    <ClCompile Include="IRModel.cpp" />
+    <ClCompile Include="IRModelG2PLUSPLUS.cpp" />
+    <ClCompile Include="Leg.cpp" />
+    <ClCompile Include="LiborCurveCalibration.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MultiRateCurve.cpp" />
+    <ClCompile Include="MultiRateCurveCalibration.cpp" />
+    <ClCompile Include="Normal.cpp" />
+    <ClCompile Include="OrnsteinUhlenbeckProcess.cpp" />
+    <ClCompile Include="RateCurve.cpp" />
+    <ClCompile Include="RateCurveCalibration.cpp" />
+    <ClCompile Include="Schedule.cpp" />
+    <ClCompile Include="Solver.cpp" />
+    <ClCompile Include="Swap.cpp" />
+    <ClCompile Include="Swaption.cpp" />
+    <ClCompile Include="TenorBasisSwap.cpp" />
+    <ClCompile Include="TestBlackFormula.cpp" />
+    <ClCompile Include="TestCurve.cpp" />
+    <ClCompile Include="TestFixedRateBondPricing.cpp" />
+    <ClCompile Include="TestFormula.cpp" />
+    <ClCompile Include="TestG2PLUSPLUS.cpp" />
+    <ClCompile Include="TestGregDate.cpp" />
+    <ClCompile Include="TestIntegral.cpp" />
+    <ClCompile Include="TestIRS.cpp" />
+    <ClCompile Include="TestRateCurveCalibration.cpp" />
+    <ClCompile Include="Tests.cpp" />
+    <ClCompile Include="TestSchedule.cpp" />
+    <ClCompile Include="TestSolver.cpp" />
+    <ClCompile Include="TestTBS.cpp" />
+    <ClCompile Include="TestYearFraction.cpp" />
+    <ClCompile Include="VolCurve.cpp" />
+    <ClCompile Include="YearFraction.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CapFloor.h" />
+    <ClInclude Include="Curve.h" />
+    <ClInclude Include="Define.h" />
+    <ClInclude Include="Deposit.h" />
+    <ClInclude Include="DiscountCurveCalibration.h" />
+    <ClInclude Include="FinanceFormula.h" />
+    <ClInclude Include="FixedRateBond.h" />
+    <ClInclude Include="FloatingRateNote.h" />
+    <ClInclude Include="FloatLeg.h" />
+    <ClInclude Include="ForwardRateAgreement.h" />
+    <ClInclude Include="GregDate.h" />
+    <ClInclude Include="Instrument.h" />
+    <ClInclude Include="Integral.h" />
+    <ClInclude Include="InterestRateSwap.h" />
+    <ClInclude Include="IRModel.h" />
+    <ClInclude Include="IRModelG2PLUSPLUS.h" />
+    <ClInclude Include="Leg.h" />
+    <ClInclude Include="LiborCurveCalibration.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="MultiRateCurve.h" />
+    <ClInclude Include="MultiRateCurveCalibration.h" />
+    <ClInclude Include="Normal.h" />
+    <ClInclude Include="OrnsteinUhlenbeckProcess.h" />
+    <ClInclude Include="OvernightIndexedSwap.h" />
+    <ClInclude Include="Process.h" />
+    <ClInclude Include="RateCurve.h" />
+    <ClInclude Include="RateCurveCalibration.h" />
+    <ClInclude Include="Schedule.h" />
+    <ClInclude Include="Solver.h" />
+    <ClInclude Include="Swap.h" />
+    <ClInclude Include="Swaption.h" />
+    <ClInclude Include="TenorBasisSwap.h" />
+    <ClInclude Include="Tests.h" />
+    <ClInclude Include="VolCurve.h" />
+    <ClInclude Include="YearFraction.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,26 @@
+#include"Tests.h"
+#include"IRModelG2PLUSPLUS.h"
+#include"YearFraction.h"
+
+bool TestG2PLUSPLUS()
+{
+	bool isC(true);
+	double mr1(0.02);
+	double mr2(0.03);
+	double vol1(0.01);
+	double vol2(0.015);
+	double rho(0.5);
+	RateCurve rc(_30360, LinearInterpolation, DfType);
+	YfConvention yfC(_30360);
+	IRModelG2PLUSPLUS g2pp(mr1, vol1, mr2, vol2, rho, rc, yfC);
+	DateInt calcDate(40000);
+	DateInt Maturity(41000);
+	double variance = g2pp.ZeroCouponVariance(calcDate, Maturity);
+
+	double yearFraction = Yf::yearFraction(calcDate, Maturity, yfC);
+
+	
+
+	return isC;
+}
+

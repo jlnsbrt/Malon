@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Instruments">
+      <UniqueIdentifier>{ae0fbc80-8286-41b0-8303-8e36f640a6d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instruments\Header">
+      <UniqueIdentifier>{122c6443-fb31-4aaa-881b-d475ff0ed9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instruments\Source">
+      <UniqueIdentifier>{23cb1010-9498-44d9-b3ab-5969cce44599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calibration">
+      <UniqueIdentifier>{7f11024f-cdf5-4667-b6a2-f4540959c527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calibration\Header">
+      <UniqueIdentifier>{d09184f6-f717-4aa5-874c-d73c8c52898a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Calibration\Source">
+      <UniqueIdentifier>{af8a9500-4e03-42de-b751-15a2b3c66931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{e0c267d9-8e3c-455f-b1d2-af52ce5ee6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Header">
+      <UniqueIdentifier>{5235e61b-3e87-4d93-9236-2e00f1f53544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Source">
+      <UniqueIdentifier>{9b968b03-1586-48e7-8ccb-c7b228340991}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{e1c3f30c-28be-458b-b28a-702bd714a443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Header">
+      <UniqueIdentifier>{d6ac73cd-b1e3-41d5-8c9e-ee7ec697384f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\Source">
+      <UniqueIdentifier>{e7ed61cd-ca94-4f4f-9901-3daf0af0877f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves">
+      <UniqueIdentifier>{9a9b5063-d4a9-408d-877c-95e9d63379bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Header">
+      <UniqueIdentifier>{e957fd30-b519-476f-878d-cc791953979e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curves\Source">
+      <UniqueIdentifier>{ab8d97e3-debd-4be7-a7e8-ac998c6af9f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{a47ebe22-a84b-48f1-a25b-f7ec46dba684}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process">
+      <UniqueIdentifier>{dd153250-4f02-4ea0-b3ec-57b150a1c005}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process\Header">
+      <UniqueIdentifier>{41c8f4c4-6853-49f7-a01a-f51eb7eff110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Process\Source">
+      <UniqueIdentifier>{16f89b28-1496-4830-86d6-2b15da72ce8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Header">
+      <UniqueIdentifier>{6cb68231-449b-4b9d-8bac-ff4cb6565e8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Source">
+      <UniqueIdentifier>{9b5be94e-add1-47d6-8ec6-a98870b83f51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Define.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Deposit.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FixedRateBond.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingRateNote.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Instrument.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="InterestRateSwap.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Leg.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Schedule.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Swap.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TenorBasisSwap.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscountCurveCalibration.cpp">
+      <Filter>Calibration\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="LiborCurveCalibration.cpp">
+      <Filter>Calibration\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiRateCurveCalibration.cpp">
+      <Filter>Calibration\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RateCurveCalibration.cpp">
+      <Filter>Calibration\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestCurve.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFixedRateBondPricing.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestGregDate.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestIRS.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestRateCurveCalibration.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tests.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSchedule.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestSolver.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestTBS.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestYearFraction.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GregDate.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="YearFraction.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>Curves\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiRateCurve.cpp">
+      <Filter>Curves\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="RateCurve.cpp">
+      <Filter>Curves\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="ForwardRateAgreement.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestFormula.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Normal.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FinanceFormula.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="CapFloor.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatLeg.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="VolCurve.cpp">
+      <Filter>Curves\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="TestBlackFormula.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Swaption.cpp">
+      <Filter>Instruments\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="OrnsteinUhlenbeckProcess.cpp">
+      <Filter>Process\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Integral.cpp">
+      <Filter>Tools\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestIntegral.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="TestG2PLUSPLUS.cpp">
+      <Filter>Tests\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IRModel.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="IRModelG2PLUSPLUS.cpp">
+      <Filter>Model\Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FixedRateBond.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingRateNote.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Instrument.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="InterestRateSwap.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Leg.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OvernightIndexedSwap.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Schedule.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Swap.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TenorBasisSwap.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Deposit.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RateCurveCalibration.h">
+      <Filter>Calibration\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscountCurveCalibration.h">
+      <Filter>Calibration\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiRateCurveCalibration.h">
+      <Filter>Calibration\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="LiborCurveCalibration.h">
+      <Filter>Calibration\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tests.h">
+      <Filter>Tests\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GregDate.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="YearFraction.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>Curves\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiRateCurve.h">
+      <Filter>Curves\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="RateCurve.h">
+      <Filter>Curves\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ForwardRateAgreement.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Normal.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FinanceFormula.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="CapFloor.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatLeg.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VolCurve.h">
+      <Filter>Curves\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Swaption.h">
+      <Filter>Instruments\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OrnsteinUhlenbeckProcess.h">
+      <Filter>Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Integral.h">
+      <Filter>Tools\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IRModel.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="IRModelG2PLUSPLUS.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Model\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
